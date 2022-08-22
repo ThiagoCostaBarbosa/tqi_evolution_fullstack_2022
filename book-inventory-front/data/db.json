@@ -1,0 +1,314 @@
+{
+  "books": [
+    {
+      "title": "iOS in Practice",
+      "id": "1617291269",
+      "publisherDate": "2013",
+      "image": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/cahill.jpg",
+      "author": "Bear P. Cahill",
+      "inventory": 8
+    },
+    {
+      "title": "Griffon in Action",
+      "id": "1935182234",
+      "publisherDate": "2012",
+      "image": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/almiray.jpg",
+      "author": "Andres Almiray",
+      "inventory": 8
+    },
+    {
+      "title": "Hello! Python",
+      "id": "1935182080",
+      "publisherDate": "2012",
+      "image": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/briggs.jpg",
+      "author": "Anthony Briggs",
+      "inventory": 8
+    },
+    {
+      "title": "Hello! HTML5 & CSS3",
+      "id": "1935182897",
+      "publisherDate": "2012",
+      "image": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/crowther.jpg",
+      "author": "Rob Crowther",
+      "inventory": 8
+    },
+    {
+      "title": "Spring Roo in Action",
+      "id": "193518296X",
+      "publisherDate": "2012",
+      "image": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/rimple.jpg",
+      "author": "Ken Rimple",
+      "inventory": 8
+    },
+    {
+      "title": "SOA Governance in Action",
+      "id": "1617290270",
+      "publisherDate": "2012",
+      "image": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/dirksen.jpg",
+      "author": "Jos Dirksen",
+      "inventory": 8
+    },
+    {
+      "title": "Android in Action, Second Edition",
+      "id": "1935182722",
+      "publisherDate": "2011",
+      "image": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/ableson2.jpg",
+      "author": "W. Frank Ableson",
+      "inventory": 8
+    },
+    {
+      "title": "Specification by Example",
+      "id": "1617290084",
+      "publisherDate": "2011",
+      "image": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/adzic.jpg",
+      "author": "Gojko Adzic",
+      "inventory": 8
+    },
+    {
+      "title": "OSGi in Depth",
+      "id": "193518217X",
+      "publisherDate": "2011",
+      "image": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/alves.jpg",
+      "author": "Alexandre de Castro Alves",
+      "inventory": 8
+    },
+    {
+      "title": "MongoDB in Action",
+      "id": "1935182870",
+      "publisherDate": "2011",
+      "image": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/banker.jpg",
+      "author": "Kyle Banker",
+      "inventory": 8
+    },
+    {
+      "title": "ASP.NET 4.0 in Practice",
+      "id": "1935182463",
+      "publisherDate": "2011",
+      "image": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/bochicchio.jpg",
+      "author": "Daniele Bochicchio",
+      "inventory": 8
+    },
+    {
+      "title": "Android in Practice",
+      "id": "1935182927",
+      "publisherDate": "2011",
+      "image": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/collins.jpg",
+      "author": "Charlie Collins",
+      "inventory": 8
+    },
+    {
+      "title": "Flex 4 in Action",
+      "id": "1935182420",
+      "publisherDate": "2010",
+      "image": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/ahmed2.jpg",
+      "author": "Tariq Ahmed",
+      "inventory": 8
+    },
+    {
+      "title": "Flex on Java",
+      "id": "1933988797",
+      "publisherDate": "2010",
+      "image": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/allmon.jpg",
+      "author": "Bernerd Allmon",
+      "inventory": 8
+    },
+    {
+      "title": "Brownfield Application Development in .NET",
+      "id": "1933988711",
+      "publisherDate": "2010",
+      "image": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/baley.jpg",
+      "author": "Kyle Baley",
+      "inventory": 8
+    },
+    {
+      "title": "jQuery in Action, Second Edition",
+      "id": "1935182323",
+      "publisherDate": "2010",
+      "image": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/bibeault2.jpg",
+      "author": "Bear Bibeault",
+      "inventory": 8
+    },
+    {
+      "title": "The Quick Python Book, Second Edition",
+      "id": "193518220X",
+      "publisherDate": "2010",
+      "image": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/ceder.jpg",
+      "author": "Naomi R. Ceder",
+      "inventory": 8
+    },
+    {
+      "title": "Spring Dynamic Modules in Action",
+      "id": "1935182307",
+      "publisherDate": "2010",
+      "image": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/cogoluegnes.jpg",
+      "author": "Arnaud Cogoluegnes",
+      "inventory": 8
+    },
+    {
+      "title": "Unlocking Android",
+      "id": "1933988673",
+      "publisherDate": "2009",
+      "image": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/ableson.jpg",
+      "author": "W. Frank Ableson",
+      "inventory": 8
+    },
+    {
+      "title": "Flex 3 in Action",
+      "id": "1933988746",
+      "publisherDate": "2009",
+      "image": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/ahmed.jpg",
+      "author": "Tariq Ahmed with Jon Hirschi",
+      "inventory": 8
+    },
+    {
+      "title": "Hello! Flex 4",
+      "id": "1933988762",
+      "publisherDate": "2009",
+      "image": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/armstrong3.jpg",
+      "author": "Peter Armstrong",
+      "inventory": 8
+    },
+    {
+      "title": "The Well-Grounded Rubyist",
+      "id": "1933988657",
+      "publisherDate": "2009",
+      "image": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/black2.jpg",
+      "author": "David A. Black",
+      "inventory": 8
+    },
+    {
+      "title": "Website Owner's Manual",
+      "id": "1933988452",
+      "publisherDate": "2009",
+      "image": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/boag.jpg",
+      "author": "Paul A. Boag",
+      "inventory": 8
+    },
+    {
+      "title": "SQL Server 2008 Administration in Action",
+      "id": "193398872X",
+      "publisherDate": "2009",
+      "image": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/colledge.jpg",
+      "author": "Rod Colledge",
+      "inventory": 8
+    },
+    {
+      "title": "Open Source SOA",
+      "id": "1933988541",
+      "publisherDate": "2009",
+      "image": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/davis.jpg",
+      "author": "Jeff Davis",
+      "inventory": 8
+    },
+    {
+      "title": "Mule in Action",
+      "id": "1933988967",
+      "publisherDate": "2009",
+      "image": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/dossot.jpg",
+      "author": "David Dossot",
+      "inventory": 8
+    },
+    {
+      "title": "Collective Intelligence in Action",
+      "id": "1933988312",
+      "publisherDate": "2008",
+      "image": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/alag.jpg",
+      "author": "Satnam Alag",
+      "inventory": 8
+    },
+    {
+      "title": "Zend Framework in Action",
+      "id": "1933988320",
+      "publisherDate": "2008",
+      "image": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/allen.jpg",
+      "author": "Rob Allen",
+      "inventory": 8
+    },
+    {
+      "title": "Flexible Rails",
+      "id": "1933988509",
+      "publisherDate": "2008",
+      "image": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/armstrong.jpg",
+      "author": "Peter Armstrong",
+      "inventory": 8
+    },
+    {
+      "title": "Team Foundation Server 2008 in Action",
+      "id": "1933988592",
+      "publisherDate": "2008",
+      "image": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/azher.jpg",
+      "author": "Jamil Azher",
+      "inventory": 8
+    },
+    {
+      "title": "Hibernate Search in Action",
+      "id": "1933988649",
+      "publisherDate": "2008",
+      "image": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/bernard.jpg",
+      "author": "Emmanuel Bernard",
+      "inventory": 8
+    },
+    {
+      "title": "jQuery in Action",
+      "id": "1933988355",
+      "publisherDate": "2008",
+      "image": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/bibeault.jpg",
+      "author": "Bear Bibeault",
+      "inventory": 8
+    },
+    {
+      "title": "iPhone in Action",
+      "id": "193398886X",
+      "publisherDate": "2008",
+      "image": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/callen.jpg",
+      "author": "Christopher Allen",
+      "inventory": 8
+    },
+    {
+      "title": "Silverlight 2 in Action",
+      "id": "1933988428",
+      "publisherDate": "2008",
+      "image": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/campbell.jpg",
+      "author": "Chad A. Campbell",
+      "inventory": 8
+    }
+  ],
+  "purchases": [
+    {
+      "bookId": "1617291269",
+      "amount": "2",
+      "uniteValue": "12.90",
+      "id": 1
+    },
+    {
+      "bookId": "193518296X",
+      "amount": "5",
+      "uniteValue": "257.60",
+      "id": 2
+    },
+    {
+      "bookId": "1933988649",
+      "amount": 4,
+      "uniteValue": 399,
+      "id": 3
+    }
+  ],
+  "orders": [
+    {
+      "bookId": "1935182080",
+      "amount": 1,
+      "uniteValue": 29.9,
+      "name": "Thiago Costa Barbosa",
+      "document": "55555555555",
+      "id": 1
+    },
+    {
+      "bookId": "1935182307",
+      "amount": 1,
+      "uniteValue": 39.9,
+      "name": "Empresa",
+      "document": "11222333000144",
+      "id": 2
+    }
+  ]
+}
