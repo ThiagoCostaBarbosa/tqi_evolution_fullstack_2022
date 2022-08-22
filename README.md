@@ -1,4 +1,4 @@
-<a name="readme-top"></a>
+<a name="Bookstore"></a>
 
 <br />
 <div align="center">
@@ -36,13 +36,20 @@
     </li>
     <li><a href="#back-end">Back-End</a>
       <ul>
-        <li><a href="#dependências">Dependências</a></li>
+        <li><a href="#dependências-do-back">Dependências</a></li>
         <li><a href="#pré-requisitos">Pré Requisitos</a></li>
+        <li><a href="#instalação">Instalação</a></li>
+        <li><a href="#uso">Uso</a></li>
       </ul>
     </li>
-    <li><a href="#instalação">Instalação</a></li>
-    <li><a href="#uso">Uso</a></li>
     <li><a href="#front-end">Front-End</a></li>
+      <ul>
+        <li><a href="#dependências-do-front">Dependências</a></li>
+        <li><a href="#pré-requisito">Pré Requisito</a></li>
+        <li><a href="#instalação-do-front">Instalação</a></li>
+        <li><a href="#uso-da-aplicação">Uso</a></li>
+      </ul>
+    </li>
     <li><a href="#contato">Contato</a></li>
   </ol>
 </details>
@@ -71,7 +78,7 @@ Esse projeto foi realizado para a etapa de Teste de Código do Processo de Sele�
 
 
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#Bookstore">back to top</a>)</p>
 
 
 
@@ -147,8 +154,8 @@ Com essas informações, comecei a fazer o contrato...
 ```
 {
     "bookId": uuid,
-    "quantity": number,
-    "price": number,
+    "unitValue": number,
+    "amount": number,
 }
 ```
 
@@ -158,8 +165,8 @@ Com essas informações, comecei a fazer o contrato...
     "name": string,
     "document": string,
     "bookId": uuid,
-    "quantity": number,
-    "price": number,
+    "unitValue": number,
+    "amount": number,
 }
 ```
 
@@ -167,7 +174,7 @@ Com essas informações, comecei a fazer o contrato...
 
 <br>
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#Bookstore">back to top</a>)</p>
 
 
 
@@ -189,7 +196,7 @@ Com essas informações, comecei a fazer o contrato...
 
 Escolhi continuar o desenvolvimento do projeto a partir do Back-end...
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#Bookstore">back to top</a>)</p>
 
 <br>
 
@@ -201,9 +208,11 @@ Nessa parte, fiz primeiro toda a classe de Book. Depois foi feito o restante das
 
 Consegues acompanhar a evolução do projeto através dos commits também.
 
+> Por ter feito os commits em sub repositórios, quando uni os dois para enviar em um repositório único, só subiu a referência. Aí excluí eles e coloquei os arquivos todos aqui. Contudo, tenho a sequência inicial dos commits do Back aqui: https://github.com/ThiagoCostaBarbosa/book-store-tqi
 
 
-### Dependências
+
+### Dependências do Back
 
 Essas são as dependências utilizadas no projeto:
 
@@ -239,23 +248,23 @@ Também é possível subir uma instalação própria do banco de dados sem utili
 
 > Para usar o banco de dados dessa maneira, o `docker` e o `docker compose` também são uma dependência.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#Bookstore">back to top</a>)</p>
 
 
 
 ### Instalação
 
-1. Clone the repo
+1. Clone o repositório
    ```sh
-   git clone https://github.com/ThiagoCostaBarbosa/book-store-tqi.git
+   git clone https://github.com/ThiagoCostaBarbosa/tqi_evolution_fullstack_2022.git
    ```
 
-2. Build Gradle Project with IntelliJ
+2. Construa e Banco de dados com o arquivo `docker-compose.yml` via Docker
 
-3. Run BookInventoryApplication
+3. Construa a aplicação com o Graddle e execute o projeto (se fizer pelo IntelliJ é mais fácil pois ele faz esse processo automagicamente)
 
 
-## Uso
+### Uso
 
 Consegues testar os endpoints com o Swagger:
 
@@ -275,28 +284,88 @@ E podes entrar no banco de dados criado, utilizando os seguintes dados:
 
 ### Conseguimos concluir essa etapa!
 
+
+Agora vamos para o Front...
+
+
+![Finish](./images/new-adventure.gif)
 </div>
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#Bookstore">back to top</a>)</p>
+
+
+
+## Front-End
+
+Nessa parte, fiz primeiro a navegação entre as páginas, depois as APis de conexão, e a visualização dos livros.
+
+
+
+### Dependências do Front
+
+Essas são as dependências utilizadas no projeto:
+
+* React Router
+* Axios
+* React Query
+* Format String By Pattern
+* Styled Components
+* React FontAwesome
+* Material UI (importado, mas não deu tempo de utilizar)
+* JSON Web Service
+
+
+
+### Pré-requisito
+
+JSON Server
+
+Utilizei para mockar um server já populado a partir de um Json o JSON Server.
+Para instalar ele, utilize o comando `npm install -g json-server`.
+
+
+
+### Instalação do Front
+
+1. Execute o comando `json-server -w data/db.json -p 8080` na pasta do projeto, para executar o JSON Server
+
+2. Execute o comando `npm run build` na pasta do projeto, para baixar as dependências e compilar o projeto
+
+3. Execute o comando `npm start` para dar início na aplicação.
+
+
+
+## Uso da aplicação
+
+Consegues abrir a aplicação em:
+
+* http://localhost:3000
+
+Possui as seguintes rotas implementadas:
+
+
+* http://localhost:3000/books
+
+* http://localhost:3000/books/register
+
+* http://localhost:3000/orders/register
+
+* http://localhost:3000/purchases/register
+
 
 
 <div style="display: flex; flex-direction: column; gap: 1.2em; align-items: center; padding: 1.6em">
 
-## Front-End
+Sei que Ninguém constrói nada sozinho, especialmente na nossa área de TI, em que tudo muda tão rapidamente. Agradeço a todos os envolvidos no Bootcamp e no processo de Seleção, que dedicaram seu amor, inteligência e energia nesse trabalho. Vocês são a alma da empresa!
 
-Bom, agora que conseguimos testar o BACK-End...
+E como já dizia Alber Einstein:
 
-Retomarei minha jornada no FRONT-end...
+> O único lugar onde sucesso vem antes do trabalho é no dicionário.
 
-Mas isso já é história pra...
+## #boraTrabalhar
 
-Outro repositório...
-
-Até... 🖖
 
 ![Finish](./images/new-adventure.gif)
-
-
 
 ## Contato
 
@@ -304,7 +373,7 @@ Thiago Costa Barbosa - [@thiagocostabarbosa](https://www.linkedin.com/in/ThiagoC
 
 </div>
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#Bookstore">back to top</a>)</p>
 
 [product-screenshot]: images/screenshot.png
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
